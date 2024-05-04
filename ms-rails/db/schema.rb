@@ -15,6 +15,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_12_173424) do
     t.string "name"
     t.string "brand"
     t.float "price"
+    t.integer "stock"
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
